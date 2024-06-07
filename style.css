@@ -8,6 +8,10 @@
     font-style: normal;
 }
 
+.z-index {
+    z-index: 1;
+}
+
 .content {
     padding-top: 10vh;
 }
@@ -50,4 +54,13 @@
 
 .padding-cta {
     padding-top: 20vh;
+}
+
+.review-card {
+    height: 50%;
+    width: 75%;
+}
+
+.star-icon {
+    font-size: 3.5em;
 }
