@@ -70,4 +70,8 @@
         position: unset;
         order: -1;
     }
+
+    .padding-cta {
+        padding-top: 0vh;
+    }
 }
