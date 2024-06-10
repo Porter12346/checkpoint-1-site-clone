@@ -83,11 +83,15 @@
 }
 
 .yt-video {
-    pointer-events: none
+    pointer-events: none;
 }
 
 
 @media screen and (max-width: 768px) {
+    .ratio-21x9 {
+        --bs-aspect-ratio: 50%;
+    }
+
     .absolute-card {
         position: unset;
         order: -1;
